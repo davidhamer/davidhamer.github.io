@@ -25,13 +25,32 @@
       background: #333;
       color: #fff;
     }
+    .linkedin-badge {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .linkedin-badge .LI-profile-inline {
+      max-width: 300px;
+      margin: 0 auto;
+    }
   </style>
+  <script src="https://platform.linkedin.com/in.js" type="text/javascript">
+    lang: en_US
+  </script>
 </head>
 <body>
   <h1>David Hamer</h1>
   <p>Reach me at <a href="mailto:david@davidhamer.uk">david@davidhamer.uk</a></p>
   <div class="links">
     <a href="https://linkedin.com/in/davidhamer" target="_blank">LinkedIn</a>
+  </div>
+
+  <div class="linkedin-badge">
+    <script type="IN/MemberProfile"
+            data-id="https://www.linkedin.com/in/davidhamer/"
+            data-format="inline"
+            data-related="false">
+    </script>
   </div>
 </body>
 </html>
